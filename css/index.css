@@ -1,0 +1,162 @@
+.clear{
+	clear: both;
+}
+
+#header{
+	height: 105px;
+	padding: 25px 0px;
+}
+
+.site-title > h1 > a{
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-right: -10px;
+	text-decoration: none;
+}
+
+.site-title > h1 > span{
+	color: #66CC33;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+.social-links{
+	padding: 12px;
+	text-align: right;
+}
+
+.social-links > span{
+	font-size: 12px;
+	color: #8c8c8c;
+}
+
+#links{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#links > a{
+	margin: 3px;
+	color: #8c8c8c;
+	text-decoration: none;
+	transition: all .3s ease;
+}
+
+#links > a:hover{
+	color: #66CC33;
+}
+
+#menu{
+	height: 55px;
+	background: linear-gradient(to bottom, #000000 0%, #343434 100%);
+	padding: 6px;
+}
+
+#menu-list{
+	list-style: none;
+	padding: 3px 0;
+}
+
+#menu-list li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+}
+
+#menu-list li{
+	display: inline-block;
+	padding: 5px 10px;
+	transition: all .3s ease;
+}
+
+#menu-list li:hover{
+	background-color: #66CC33;
+	border-radius: 5px;
+}
+
+#search-bar{
+	padding: 6px;
+}
+
+#search-bar input{
+	width: 200px;
+	border-radius: 3px;
+	border: none;
+	padding: 5px 10px;
+	font-size: 14px;
+	color: #cccccc;
+	background-color: #363636;
+}
+
+#search-button{
+	border: 0;
+	background-color: transparent;
+	position: relative;
+	left: -40px;
+	cursor: pointer;
+	color: #fff;
+}
+
+#slider{
+	height: 430px;
+}
+
+#slider-content img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#slider-controls{
+	text-align: center;
+	position: relative;
+	top: -50%;
+}
+
+#slider-controls .arrow-left{
+	float: left;
+}
+
+#slider-controls .arrow-right{
+	float: right;
+}
+
+#slider-controls button{
+	border: 0;
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 42px;
+	color: #fff;
+	transition: all .2s ease-in-out;
+}
+
+#slider-controls button:hover{
+	color: #66CC33;
+}
+
+#slider-controls button i{
+	text-shadow: 1px 2px #888888;
+}
+
+#slider-pagination{
+	position: relative;
+	top: -25%;
+}
+
+#slider-pagination div a{
+	text-decoration: none;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	margin-right: 10px;
+	border: 1px solid #ccc;
+}
+
+.selected-img{
+	background-color: #66CC33;
+}
+
+.pagination-elements{
+	padding: 0px 100px;
+}
